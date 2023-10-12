@@ -1,0 +1,124 @@
+/*  font-family: 'Nunito', sans-serif;  */
+a {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
+/*Header*/
+.box1 h2 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 68px;
+    letter-spacing: -1.8px;
+    color: #2F3C33;
+}
+.box1 {
+    align-self: stretch;
+}
+.box1 h2 span {
+    font-family: 'Nunito', sans-serif;
+    font-size: 99px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: -1.8px;
+    color: #84CC16;
+}
+.box1 p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: -0.24px;
+    color: #647067;
+}
+.headerL a {
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #647067;
+}
+.downloadApp {
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: -0.36px;
+    color: #fff;
+    background-color: #2F3C33;
+    border-radius: 24px;
+    }
+.hartRatio {
+    position: absolute;
+    top: 20%;
+    left: 55%;
+}
+.nutrition {
+    position: absolute;
+    top: 50%;
+    left: 62%;
+}
+.doctor {
+    position: absolute;
+    top: 55%;
+    left: -20%;
+}
+/*Main*/
+/*Footer*/
+footer {
+    background-color: #2F3C33;
+}
+footer p {
+    font-family: 'Nunito', sans-serif; 
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 32px */
+    letter-spacing: -0.2px;
+    align-self: stretch;
+    color: #E3E4E3;
+}
+footer h2 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 99px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: -1.8px;
+    color: #84CC16;
+    text-align: center;
+}
+.footerCenter {
+    text-align: center;
+}
+.footerCenter a {
+    font-family: 'Nunito', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 56px;
+    letter-spacing: -1.44px;
+    text-align: center;
+    color: #FFF;
+    opacity: 0.48;
+}
+.google-apple {
+    font-family: 'Nunito', sans-serif; 
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: -0.36px;
+    color: #fff;
+    background-color: #84CC16;
+    border-radius: 30px;
+}
