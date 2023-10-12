@@ -6,6 +6,9 @@ li {
     list-style-type: none;
 }
 /*Header*/
+header {
+    background: linear-gradient(225deg, #84CC16, #FFF);
+}
 .box1 h2 {
     font-family: 'Nunito', sans-serif;
     font-size: 60px;
@@ -73,9 +76,107 @@ li {
     left: -20%;
 }
 /*Main*/
+main {
+    background-color: #2F3C33;
+    border-radius: 180px;
+    align-items: flex-start;
+}
+main p {
+    color: #E3E4E3;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 32px */
+    letter-spacing: -0.2px;
+}
+main h2 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 56px; /* 116.667% */
+    letter-spacing: -1.44px;
+    color: #fff;
+}
+.mission {
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+    background-color: #84CC16;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.32px;
+    color: #E3E4E3;
+
+}
+/*statistics*/
+.statistics {
+    border-radius: 180px;
+    background-color: #84CC16;
+}
+.statistics h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 56px; /* 116.667% */
+    letter-spacing: -1.44px;
+    padding: 32px;
+}
+.statistics h2 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 80px;
+    letter-spacing: -2.16px;
+    color: #2F3C33;
+}
+.statistics span {
+    color: #84CC16;
+}
+.statistics p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 133.333% */
+    letter-spacing: -0.72px;
+    color: #2F3C33;
+}
+.box-s {
+    text-align: center;
+    flex: 1 0 0;
+    border-radius: 64px;
+    background-color: #fff;
+}
+/*services*/
+/*features*/
+/*benefits*/
+/*latestNews*/
+/*cta*/
 /*Footer*/
 footer {
     background-color: #2F3C33;
+    border-radius: 180px 180px 0px 0px;
+}
+.logo-moto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+}
+.img-footer {
+    width: 187.5px;
+    height: 61.5px;
 }
 footer p {
     font-family: 'Nunito', sans-serif; 
@@ -85,6 +186,7 @@ footer p {
     line-height: 160%; /* 32px */
     letter-spacing: -0.2px;
     align-self: stretch;
+    text-align: center;
     color: #E3E4E3;
 }
 footer h2 {
@@ -97,6 +199,28 @@ footer h2 {
     color: #84CC16;
     text-align: center;
 }
+.footerL {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footerL a {
+    width: 64px;
+    height: 64px;
+    gap: 10px;
+}
+.footerR {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footerR a {
+    width: 64px;
+    height: 64px;
+    gap: 10px;
+}
 .footerCenter {
     text-align: center;
 }
@@ -108,8 +232,27 @@ footer h2 {
     line-height: 56px;
     letter-spacing: -1.44px;
     text-align: center;
-    color: #FFF;
+    color: #fff;
     opacity: 0.48;
+}
+.footerCenter a:hover{
+    opacity: 1;
+}
+.footerBottom ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+}
+.footerBottom a {
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #fff;
 }
 .google-apple {
     font-family: 'Nunito', sans-serif; 
@@ -121,4 +264,19 @@ footer h2 {
     color: #fff;
     background-color: #84CC16;
     border-radius: 30px;
+    display: flex;
+    height: 80px;
+    padding: 24px 32px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+}
+.point {
+    width: 8px;
+height: 8px;
+border-radius: 3px;
+color: #48524B;
+vertical-align: baseline;
 }
