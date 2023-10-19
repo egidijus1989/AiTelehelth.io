@@ -217,7 +217,7 @@ main h2 {
 .servicesM1 {
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: baseline;
     background-color: #fff;
     border-radius: 64px;
     box-shadow: 0px 8px 16px 0px rgba(47, 60, 51, 0.05);
@@ -228,8 +228,8 @@ main h2 {
     gap: 10px;
 }
 .servicesM11 {
-    display: flex;
-    flex-direction: column;
+    /*display: flex;
+    flex-direction: column;*/
     font-family: 'Nunito', sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -250,10 +250,10 @@ main h2 {
     text-transform: uppercase;
 }
 .servicesM12 {
-    display: flex;
-    flex-direction: row;
+    /*display: flex;
+    flex-direction: row;*/
     gap: 10px;
-    vertical-align: middle;
+    vertical-align: baseline;
 }
 .servicesM1M h6 {
     font-family: 'Nunito', sans-serif;
@@ -276,8 +276,8 @@ main h2 {
     color: #647067;
 }
 .servicesM13 {
-    display: flex;
-    flex-direction: column;
+    /*display: flex;
+    flex-direction: column;*/
     width: 24px;
     height: 24px;
     align-items: end;
